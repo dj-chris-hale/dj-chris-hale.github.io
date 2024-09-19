@@ -6,8 +6,8 @@ description: >- # this means to ignore newlines until next element
   Awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/jekyll-bootstrap-site-template" # the subpath of your site, e.g. /blog
-url: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "xp8r.com"
 excerpts:
   # Displays or hides post excerpts from home layout post listing.
   show: true
@@ -39,18 +39,17 @@ bootstrap:
   # generate social links in footer
   social_links:
     #twitter: 'https://twitter.com/jonaharagon'
-    github:  'https://github.com/hepaestus'
+    github:  'https://github.com/dj-chris-hale'
     #facebook: 'https://example.com/@jekyllrb'
-    # instagram: 'https://instagram.com/faustus413'
+    instagram: 'https://instagram.com/djchrishale'
     #linkedin: 'https://example.com/@jekyllrb'
     #google: 'https://example.com/@jekyllrb'
-    #youtube: 'https://example.com/@jekyllrb'
+    youtube: 'https://example.com/djchrishale'
     #twitch: 'https://example.com/@jekyllrb'
     #telegram: 'https://example.com/@jekyllrb'
     #whatsapp: 'https://example.com/@jekyllrb'
     #discord: 'https://example.com/@jekyllrb'
     #slack: 'https://example.com/@jekyllrb'
-
 
 # Tags Cloud
 tags_cloud: true
