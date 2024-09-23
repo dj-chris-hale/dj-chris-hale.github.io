@@ -1,23 +1,15 @@
 ---
 title: Home
 layout: default
-image: "http://placehold.co/1000x300/dddddd/ffffff/?text=Index Image"
-header_title: "Jekyll Bootstrap Site Template"
+image: "/assets/images/chris-bio-pic.jpg"
+header_title: '<i class="bi bi-volume-up-fill"></i> Welcome <i class="bi bi-volume-up-fill"></i>'
 nav_display: false
 date: 2024-09-14 17:57:00 +0900
 ---
+Welcome to Ex-Patriot Recordings (Xp8r), the site, and recording label of Japan-based electronic music producer and Dj Chris Hale. 
 
-### <i class="bi bi-backpack3"></i> New Features
+Having come up through the underground electronic scene in Japan, where he has resided for nearly two-decades, his knowledge of the scene, and access to it's principal players, can be heard in his mixes and his own productions. 
 
-* <i class="bi bi-code-square"></i> Setup Scripts
-* <i class="bi bi-github"></i> Git hooks
-* <i class="bi bi-compass"></i> Sitemap.xml
-* <i class="bi bi-search-heart"></i> Integrated Search
-* <i class="bi bi-tags"></i> Automated Tag Cloud Creation
-* <i class="bi bi-bootstrap"></i> Bootstrap 5.3 
-* <i class="bi bi-emoji-heart-eyes"></i> Bootstrap Icons 
+He is also host of the underground radio show "Tokyo Metro" which was first broadcast on PulseRadio.net, and now podcasts from iTunes and other podcasting services. 
 
-----
-
-### Blog Articles
-{% include blog.html %}
+All of his own tracks and albums are available from the usual suspects: iTunes, Amazon Music and Spotify - available for stream or download.

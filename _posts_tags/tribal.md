@@ -1,0 +1,5 @@
+---
+title: tribal
+layout: tags
+---
+

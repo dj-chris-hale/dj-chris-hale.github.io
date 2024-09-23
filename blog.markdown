@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "<i class='bi bi-pen'></i> Blog"
+title: '<i class="bi bi-speaker-fill"></i> Blog'
 permalink: /blog/
+list_title: 'Dj Sessions'
 ---
 {% if site.paginate %}
     {% assign posts = paginator.posts %}

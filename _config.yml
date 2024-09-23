@@ -1,11 +1,9 @@
-title: Jekyll Bootstrap Theme
+title: DJ Chris Hale
 author:
-  name: 'Pete Olsen III'
-  email: 'pete@hepaestus.com'
+  name: 'Chris Hale'
+  email: 'chris@xp8r.com'
 description: >- # this means to ignore newlines until next element
-  Awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Japan-based electronic music producer and Dj Chris Hale
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "xp8r.com"
 excerpts:
@@ -58,6 +56,7 @@ collections:
   posts_tags:
     permalink: /tags/:name/
     output: true
+
 defaults:
   - scope:
       path: ''

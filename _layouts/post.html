@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header py-3">
@@ -12,14 +11,14 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.modified_date -%}
-        ~
+        
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
         <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
       {%- if page.author -%}
-        • {% for author in page.author %}
+        {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
@@ -27,7 +26,32 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content" itemprop="articleBody">    
+    {% if page.image %}
+    <!-- Image already displayed -->
+    {% else %}
+    <div class="text-center p-2">
+      <img src="{{ '/assets/images/default-image.webp' | relative_url }}" alt="{{ page.title | escape }}" class="img-fluid" style="width: 30%;">
+    </div>
+    {% endif %}
+
+
+    {%- if page.description != null -%}
+      <p class="lead">{{ page.description }}</p>      
+    {%- endif -%}
+    {% if page.mp3 %}
+      <audio controls>
+        <source src="{{ page.mp3 | relative_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    {% endif %}
+    {% if page.tracks %}
+      <ul>Tracks:
+        {% for track in page.tracks %}
+          <li>{{ track.track }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
     {{ content }}
   </div>
 

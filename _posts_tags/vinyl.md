@@ -1,0 +1,5 @@
+---
+title: vinyl
+layout: tags
+---
+
