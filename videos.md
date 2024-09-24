@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Videos
+title: '<i class="bi bi-film"></i> Videos'
 permalink: /videos/
 ---
 {% for vid in site.data.youtube %}    
