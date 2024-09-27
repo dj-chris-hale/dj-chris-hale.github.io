@@ -5,6 +5,7 @@ permalink: /pic/
 image: "http://placeholder.co/900x300/dddddd/ffffff/?text=Picture"
 header_title: "Image Header page"
 show_top_link: true
+nav_display: false
 ---
 
 A long page with many paragraphs a `page.image` and a `page.header_title`
