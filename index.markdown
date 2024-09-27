@@ -2,7 +2,7 @@
 title: Home
 layout: default
 image: "/assets/images/chris-bio-pic.jpg"
-header_title: '<i class="bi bi-volume-up-fill"></i> Welcome <i class="bi bi-volume-up-fill"></i>'
+header_title: "<i class='bi bi-volume-up-fill'></i> Welcome <i class='bi bi-volume-up-fill'></i>"
 nav_display: false
 date: 2024-09-14 17:57:00 +0900
 ---

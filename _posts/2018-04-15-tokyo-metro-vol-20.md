@@ -9,5 +9,5 @@ description: "This is a live set played at the party Method at Jam House, Akita 
 tracks: 
 
 categories: [podcast]
-tags: [live,at,method]
+tags: [live,method]
 ---

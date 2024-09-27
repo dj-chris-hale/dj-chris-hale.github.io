@@ -1,6 +1,6 @@
 ---
 layout: default
-title: '<i class="bi bi-vinyl-fill"></i> Releases'
+title: "<i class='bi bi-vinyl-fill'></i> Releases"
 date: 2024-09-20
 permalink: /releases/
 

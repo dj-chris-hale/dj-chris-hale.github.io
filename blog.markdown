@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '<i class="bi bi-speaker-fill"></i> Blog'
+title: "<i class='bi bi-speaker-fill'></i> Blog"
 permalink: /blog/
 list_title: 'Dj Sessions'
 ---
