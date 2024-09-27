@@ -1,6 +1,6 @@
 ---
 layout: default
-title: '<i class="bi bi-play"></i> About'
+title: "<i class='bi bi-play'></i> About"
 permalink: /about/
 image: "/assets/images/chris-bio-pic.jpg"
 header_title: "Chris Carl Hale Biography"
