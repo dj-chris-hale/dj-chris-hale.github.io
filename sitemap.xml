@@ -27,4 +27,23 @@ sitemap: false
         </url>
         {% endif -%}
     {% endfor -%}
+    {% for post in site.posts -%}
+        {% if post.url contains '/assets/' -%}
+        {% elsif post.sitemap != false -%}
+        <url>
+            <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+            <lastmod>
+            {%- if post.last_modified_at -%}
+                {{ post.last_modified_at | date: site.iso_date_format }}
+            {%- elsif post.date -%}
+                {{ post.date | date: site.iso_date_format }}
+            {%- elsif site.date -%}
+                {{ site.date | date: site.iso_date_format }}
+            {%- else -%}
+                {{ "now" | date: site.iso_date_format }}                
+            {%- endif -%}
+            </lastmod>
+        </url>
+        {% endif -%}
+    {% endfor -%}
 </urlset>
